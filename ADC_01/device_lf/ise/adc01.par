@@ -1,0 +1,338 @@
+Release 14.7 par P.20131013 (lin)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+asiclab003.physik.uni-bonn.de::  Tue Nov 23 15:44:10 2021
+
+par -w -intstyle ise -ol high -t 1 adc01_map.ncd adc01.ncd adc01.pcf 
+
+
+Constraints file: adc01.pcf.
+Loading device for application Rf_Device from file '3s1000.nph' in environment /cadence/xilinx/14.7/ISE_DS/ISE/.
+   "adc01" is an NCD, version 3.2, device xc3s1000, package fg320, speed -5
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+INFO:Security:51 - The XILINXD_LICENSE_FILE environment variable is not set.
+INFO:Security:52 - The LM_LICENSE_FILE environment variable is set to '8000@faust02.physik.uni-bonn.de'.
+INFO:Security:54 - 'xc3s1000' is a WebPack part.
+WARNING:Security:43 - No license file was found in the standard Xilinx license directory.
+WARNING:Security:44 - Since no license file was found,
+       please run the Xilinx License Configuration Manager
+       (xlcm or "Manage Xilinx Licenses")
+       to assist in obtaining a license.
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue
+to function, but you no longer qualify for Xilinx software updates or new releases.
+
+----------------------------------------------------------------------
+WARNING:ConstraintSystem - The Offset constraint <COMP "BUS_DATA<0>" OFFSET = IN 15 ns AFTER COMP "FCLK_IN";>
+   [adc01.pcf(1355)], is specified without a duration.  This will result in a lack of hold time checks in timing
+   reports.  If hold time checks are desired a duration value should be specified following the 'VALID' keyword.
+
+WARNING:ConstraintSystem - The Offset constraint <COMP "BUS_DATA<1>" OFFSET = IN 15 ns AFTER COMP "FCLK_IN";>
+   [adc01.pcf(1357)], is specified without a duration.  This will result in a lack of hold time checks in timing
+   reports.  If hold time checks are desired a duration value should be specified following the 'VALID' keyword.
+
+WARNING:ConstraintSystem - The Offset constraint <COMP "BUS_DATA<2>" OFFSET = IN 15 ns AFTER COMP "FCLK_IN";>
+   [adc01.pcf(1359)], is specified without a duration.  This will result in a lack of hold time checks in timing
+   reports.  If hold time checks are desired a duration value should be specified following the 'VALID' keyword.
+
+WARNING:ConstraintSystem - The Offset constraint <COMP "BUS_DATA<3>" OFFSET = IN 15 ns AFTER COMP "FCLK_IN";>
+   [adc01.pcf(1361)], is specified without a duration.  This will result in a lack of hold time checks in timing
+   reports.  If hold time checks are desired a duration value should be specified following the 'VALID' keyword.
+
+WARNING:ConstraintSystem - The Offset constraint <COMP "BUS_DATA<4>" OFFSET = IN 15 ns AFTER COMP "FCLK_IN";>
+   [adc01.pcf(1363)], is specified without a duration.  This will result in a lack of hold time checks in timing
+   reports.  If hold time checks are desired a duration value should be specified following the 'VALID' keyword.
+
+WARNING:ConstraintSystem - The Offset constraint <COMP "BUS_DATA<5>" OFFSET = IN 15 ns AFTER COMP "FCLK_IN";>
+   [adc01.pcf(1365)], is specified without a duration.  This will result in a lack of hold time checks in timing
+   reports.  If hold time checks are desired a duration value should be specified following the 'VALID' keyword.
+
+WARNING:ConstraintSystem - The Offset constraint <COMP "BUS_DATA<6>" OFFSET = IN 15 ns AFTER COMP "FCLK_IN";>
+   [adc01.pcf(1367)], is specified without a duration.  This will result in a lack of hold time checks in timing
+   reports.  If hold time checks are desired a duration value should be specified following the 'VALID' keyword.
+
+WARNING:ConstraintSystem - The Offset constraint <COMP "BUS_DATA<7>" OFFSET = IN 15 ns AFTER COMP "FCLK_IN";>
+   [adc01.pcf(1369)], is specified without a duration.  This will result in a lack of hold time checks in timing
+   reports.  If hold time checks are desired a duration value should be specified following the 'VALID' keyword.
+
+WARNING:ConstraintSystem - The Offset constraint <COMP "RD_B" OFFSET = IN 10 ns AFTER COMP "FCLK_IN";>
+   [adc01.pcf(1371)], is specified without a duration.  This will result in a lack of hold time checks in timing
+   reports.  If hold time checks are desired a duration value should be specified following the 'VALID' keyword.
+
+WARNING:ConstraintSystem - The Offset constraint <COMP "WR_B" OFFSET = IN 5 ns AFTER COMP "FCLK_IN";> [adc01.pcf(1372)],
+   is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time
+   checks are desired a duration value should be specified following the 'VALID' keyword.
+
+
+Initializing temperature to 85.000 Celsius. (default - Range: 0.000 to 85.000 Celsius)
+Initializing voltage to 1.140 Volts. (default - Range: 1.140 to 1.260 Volts)
+
+
+Device speed data version:  "PRODUCTION 1.39 2013-10-13".
+
+
+Device Utilization Summary:
+
+   Number of BUFGMUXs                        5 out of 8      62%
+   Number of DCMs                            1 out of 4      25%
+   Number of External IOBs                 106 out of 221    47%
+      Number of LOCed IOBs                 106 out of 106   100%
+
+   Number of RAMB16s                         8 out of 24     33%
+   Number of Slices                        973 out of 7680   12%
+      Number of SLICEMs                     62 out of 3840    1%
+
+
+
+Overall effort level (-ol):   High 
+Placer effort level (-pl):    High 
+Placer cost table entry (-t): 1
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 1 secs 
+Finished initial Timing Analysis.  REAL time: 1 secs 
+
+WARNING:Par:288 - The signal SDA_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal SCL_IBUF has no load.  PAR will not attempt to route this signal.
+WARNING:Par:288 - The signal FMODE_IBUF has no load.  PAR will not attempt to route this signal.
+
+Starting Placer
+Total REAL time at the beginning of Placer: 1 secs 
+Total CPU  time at the beginning of Placer: 1 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:60e8bacf) REAL time: 1 secs 
+
+Phase 2.7  Design Feasibility Check
+Phase 2.7  Design Feasibility Check (Checksum:60e8bacf) REAL time: 1 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:60e8bacf) REAL time: 1 secs 
+
+Phase 4.2  Initial Clock and IO Placement
+
+Phase 4.2  Initial Clock and IO Placement (Checksum:824f664e) REAL time: 1 secs 
+
+Phase 5.36  Local Placement Optimization
+Phase 5.36  Local Placement Optimization (Checksum:824f664e) REAL time: 1 secs 
+
+Phase 6.8  Global Placement
+......................
+...
+.................................
+....
+....
+......
+Phase 6.8  Global Placement (Checksum:86ebbb15) REAL time: 3 secs 
+
+Phase 7.5  Local Placement Optimization
+Phase 7.5  Local Placement Optimization (Checksum:86ebbb15) REAL time: 3 secs 
+
+Phase 8.18  Placement Optimization
+Phase 8.18  Placement Optimization (Checksum:c20c0f7) REAL time: 4 secs 
+
+Phase 9.5  Local Placement Optimization
+Phase 9.5  Local Placement Optimization (Checksum:c20c0f7) REAL time: 4 secs 
+
+Total REAL time to Placer completion: 4 secs 
+Total CPU  time to Placer completion: 4 secs 
+Writing design to file adc01.ncd
+
+
+
+Starting Router
+
+
+Phase  1  : 6803 unrouted;      REAL time: 5 secs 
+
+Phase  2  : 6119 unrouted;      REAL time: 5 secs 
+
+Phase  3  : 1416 unrouted;      REAL time: 5 secs 
+
+Phase  4  : 1422 unrouted; (Setup:4510, Hold:0, Component Switching Limit:0)     REAL time: 6 secs 
+
+Phase  5  : 0 unrouted; (Setup:4510, Hold:0, Component Switching Limit:0)     REAL time: 7 secs 
+
+Updating file: adc01.ncd with current fully routed design.
+
+Phase  6  : 0 unrouted; (Setup:4510, Hold:0, Component Switching Limit:0)     REAL time: 7 secs 
+
+Phase  7  : 0 unrouted; (Setup:3652, Hold:0, Component Switching Limit:0)     REAL time: 9 secs 
+
+Phase  8  : 0 unrouted; (Setup:3652, Hold:0, Component Switching Limit:0)     REAL time: 9 secs 
+
+Phase  9  : 0 unrouted; (Setup:3652, Hold:0, Component Switching Limit:0)     REAL time: 9 secs 
+
+Phase 10  : 0 unrouted; (Setup:2594, Hold:0, Component Switching Limit:0)     REAL time: 9 secs 
+WARNING:Route:455 - CLK Net:LCK1_BUF may have excessive skew because 
+      0 CLK pins and 2 NON_CLK pins failed to route using a CLK template.
+
+Total REAL time to Router completion: 9 secs 
+Total CPU time to Router completion: 9 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|             BUS_CLK |      BUFGMUX0| No   |  310 |  0.373     |  0.984      |
++---------------------+--------------+------+------+------------+-------------+
+|          div1/CLOCK |      BUFGMUX4| No   |   63 |  0.254     |  0.868      |
++---------------------+--------------+------+------+------------+-------------+
+|            LCK1_BUF |      BUFGMUX2| No   |   90 |  0.382     |  1.011      |
++---------------------+--------------+------+------+------------+-------------+
+|          CLK_EN_SEQ |         Local|      |    2 |  0.211     |  2.078      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+* The fanout is the number of component pins not the individual BEL loads,
+for example SLICE loads not FF loads.
+
+Timing Score: 2594 (Setup: 2594, Hold: 0, Component Switching Limit: 0)
+
+WARNING:Par:468 - Your design did not meet timing.  The following are some suggestions to assist you to meet timing in
+   your design.
+
+   Review the timing report using Timing Analyzer (In ISE select "Post-Place &
+   Route Static Timing Report"). Go to the failing constraint(s) and evaluate the failing paths for each constraint.
+
+   Try the Design Goal and Strategies for Timing Performance(In ISE select Project -> Design Goals & Strategies) to
+   ensure the best options are set in the tools for timing closure.
+
+   Use the Xilinx "SmartXplorer" script to try special combinations of
+   options known to produce very good results.
+
+   Visit the Xilinx technical support web at http://support.xilinx.com and go to
+   either "Troubleshoot->Tech Tips->Timing & Constraints" or "
+   TechXclusives->Timing Closure" for tips and suggestions for meeting timing
+   in your design.
+
+Number of Timing Constraints that were not applied: 1
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+* TS_LCK = PERIOD TIMEGRP "TNM_LCK" 10 ns H | SETUP       |    -0.522ns|    10.522ns|       8|        2594
+  IGH 50%                                   | HOLD        |     0.702ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  COMP "BUS_DATA<3>" OFFSET = IN 15 ns AFTE | SETUP       |     0.490ns|    15.490ns|       0|           0
+  R COMP "FCLK_IN"                          |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  COMP "BUS_DATA<2>" OFFSET = OUT 5 ns BEFO | MAXDELAY    |     0.674ns|     5.674ns|       0|           0
+  RE COMP "FCLK_IN"                         |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  COMP "BUS_DATA<1>" OFFSET = OUT 5 ns BEFO | MAXDELAY    |     0.759ns|     5.759ns|       0|           0
+  RE COMP "FCLK_IN"                         |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  COMP "BUS_DATA<1>" OFFSET = IN 15 ns AFTE | SETUP       |     0.840ns|    15.840ns|       0|           0
+  R COMP "FCLK_IN"                          |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  COMP "BUS_DATA<3>" OFFSET = OUT 5 ns BEFO | MAXDELAY    |     1.022ns|     6.022ns|       0|           0
+  RE COMP "FCLK_IN"                         |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  COMP "BUS_DATA<0>" OFFSET = OUT 5 ns BEFO | MAXDELAY    |     1.172ns|     6.172ns|       0|           0
+  RE COMP "FCLK_IN"                         |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  COMP "BUS_DATA<5>" OFFSET = IN 15 ns AFTE | SETUP       |     1.606ns|    16.606ns|       0|           0
+  R COMP "FCLK_IN"                          |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  COMP "BUS_DATA<2>" OFFSET = IN 15 ns AFTE | SETUP       |     1.638ns|    16.638ns|       0|           0
+  R COMP "FCLK_IN"                          |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  COMP "BUS_DATA<0>" OFFSET = IN 15 ns AFTE | SETUP       |     1.710ns|    16.710ns|       0|           0
+  R COMP "FCLK_IN"                          |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  COMP "BUS_DATA<4>" OFFSET = OUT 5 ns BEFO | MAXDELAY    |     1.718ns|     6.718ns|       0|           0
+  RE COMP "FCLK_IN"                         |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  COMP "BUS_DATA<6>" OFFSET = OUT 5 ns BEFO | MAXDELAY    |     1.770ns|     6.770ns|       0|           0
+  RE COMP "FCLK_IN"                         |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  COMP "BUS_DATA<7>" OFFSET = OUT 5 ns BEFO | MAXDELAY    |     1.900ns|     6.900ns|       0|           0
+  RE COMP "FCLK_IN"                         |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  COMP "BUS_DATA<6>" OFFSET = IN 15 ns AFTE | SETUP       |     1.909ns|    16.909ns|       0|           0
+  R COMP "FCLK_IN"                          |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  COMP "BUS_DATA<7>" OFFSET = IN 15 ns AFTE | SETUP       |     1.923ns|    16.923ns|       0|           0
+  R COMP "FCLK_IN"                          |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  COMP "BUS_DATA<5>" OFFSET = OUT 5 ns BEFO | MAXDELAY    |     2.086ns|     7.086ns|       0|           0
+  RE COMP "FCLK_IN"                         |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  COMP "BUS_DATA<4>" OFFSET = IN 15 ns AFTE | SETUP       |     2.111ns|    17.111ns|       0|           0
+  R COMP "FCLK_IN"                          |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_i_clkgen_CLK0 = PERIOD TIMEGRP "i_clkg | SETUP       |     3.991ns|    14.159ns|       0|           0
+  en_CLK0" TS_FCLK_IN HIGH 50%              | HOLD        |     0.702ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  COMP "WR_B" OFFSET = IN 5 ns AFTER COMP " | SETUP       |     4.324ns|     9.324ns|       0|           0
+  FCLK_IN"                                  |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  COMP "RD_B" OFFSET = IN 10 ns AFTER COMP  | SETUP       |     5.716ns|    15.716ns|       0|           0
+  "FCLK_IN"                                 |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_FCLK_IN = PERIOD TIMEGRP "TNM_FCLK_IN" | MINPERIOD   |    14.013ns|     5.987ns|       0|           0
+   20 ns HIGH 50%                           |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Review Timing Report for more details on the following derived constraints.
+To create a Timing Report, run "trce -v 12 -fastpaths -o design_timing_report design.ncd design.pcf"
+or "Run Timing Analysis" from Timing Analyzer (timingan).
+Derived Constraints for TS_FCLK_IN
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths Analyzed       |
+|           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+|TS_FCLK_IN                     |     20.000ns|      5.987ns|     14.159ns|            0|            0|            0|        53680|
+| TS_i_clkgen_CLK0              |     20.000ns|     14.159ns|          N/A|            0|            0|        53680|            0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
+
+1 constraint not met.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+WARNING:Par:283 - There are 3 loadless signals in this design. This design will cause Bitgen to issue DRC warnings.
+
+Total REAL time to PAR completion: 10 secs 
+Total CPU time to PAR completion: 9 secs 
+
+Peak Memory Usage:  193 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - 8 errors found.
+
+Number of error messages: 0
+Number of warning messages: 17
+Number of info messages: 0
+
+Writing design to file adc01.ncd
+
+
+
+PAR done!

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="ConstraintSystem" num="56" delta="new" >Constraint <arg fmt="%s" index="1">&lt;TIMESPEC TS_FALSE_WCLK_BUS = FROM &quot;tn_TDC_WCLK&quot; TO &quot;tn_BUS_CLK&quot; TIG;&gt; [/faust/user/lhafiane/cordia/ADC_01/device_lf/src/adc01.ucf(46)]</arg>: Unable to find an active <arg fmt="%s" index="2">&apos;TimeGrp&apos; or &apos;TNM&apos; or &apos;TPSync&apos;</arg> constraint named &apos;<arg fmt="%s" index="3">tn_TDC_WCLK</arg>&apos;.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">TNM_FCLK_IN</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_FCLK_IN</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM</arg> instance <arg fmt="%s" index="5">i_clkgen/DCM_BUS</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM</arg> output(s): 
+<arg fmt="%s" index="7">CLK0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_i_clkgen_CLK0 = PERIOD &quot;i_clkgen_CLK0&quot; TS_FCLK_IN HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;NET &quot;WR_B&quot; OFFSET = IN : 5 : AFTER : FCLK_IN ;&gt; [/faust/user/lhafiane/cordia/ADC_01/device_lf/src/adc01.ucf(152)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;NET &quot;RD_B&quot; OFFSET = IN : 10 : AFTER : FCLK_IN ;&gt; [/faust/user/lhafiane/cordia/ADC_01/device_lf/src/adc01.ucf(153)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;NET &quot;BUS_DATA[7]&quot; OFFSET = IN : 15  : AFTER : FCLK_IN ;&gt; [/faust/user/lhafiane/cordia/ADC_01/device_lf/src/adc01.ucf(154)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;NET &quot;BUS_DATA[6]&quot; OFFSET = IN : 15  : AFTER : FCLK_IN ;&gt; [/faust/user/lhafiane/cordia/ADC_01/device_lf/src/adc01.ucf(155)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;NET &quot;BUS_DATA[5]&quot; OFFSET = IN : 15  : AFTER : FCLK_IN ;&gt; [/faust/user/lhafiane/cordia/ADC_01/device_lf/src/adc01.ucf(156)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;NET &quot;BUS_DATA[4]&quot; OFFSET = IN : 15  : AFTER : FCLK_IN ;&gt; [/faust/user/lhafiane/cordia/ADC_01/device_lf/src/adc01.ucf(157)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;NET &quot;BUS_DATA[3]&quot; OFFSET = IN : 15  : AFTER : FCLK_IN ;&gt; [/faust/user/lhafiane/cordia/ADC_01/device_lf/src/adc01.ucf(158)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;NET &quot;BUS_DATA[2]&quot; OFFSET = IN : 15  : AFTER : FCLK_IN ;&gt; [/faust/user/lhafiane/cordia/ADC_01/device_lf/src/adc01.ucf(159)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;NET &quot;BUS_DATA[1]&quot; OFFSET = IN : 15  : AFTER : FCLK_IN ;&gt; [/faust/user/lhafiane/cordia/ADC_01/device_lf/src/adc01.ucf(160)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;NET &quot;BUS_DATA[0]&quot; OFFSET = IN : 15  : AFTER : FCLK_IN ;&gt; [/faust/user/lhafiane/cordia/ADC_01/device_lf/src/adc01.ucf(161)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="478" delta="new" >clock net <arg fmt="%s" index="1">CLK160</arg> with clock driver <arg fmt="%s" index="2">i_clkgen/CLKFX_BUFG_INST</arg> drives no clock pins
+</msg>
+
+<msg type="warning" file="NgdBuild" num="478" delta="new" >clock net <arg fmt="%s" index="1">SPI_CLK</arg> with clock driver <arg fmt="%s" index="2">i_clkgen/CLKDV_BUFG_INST</arg> drives no clock pins
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="new" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">SDA</arg>&apos; has no legal driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="470" delta="new" ><arg fmt="%s" index="1">bidirect</arg> pad net &apos;<arg fmt="%s" index="2">SCL</arg>&apos; has no legal driver
+</msg>
+
+</messages>
+

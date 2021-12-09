@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;COMP &quot;BUS_DATA&lt;0&gt;&quot; OFFSET = IN 15 ns AFTER COMP &quot;FCLK_IN&quot;;&gt; [adc01.pcf(1355)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;COMP &quot;BUS_DATA&lt;1&gt;&quot; OFFSET = IN 15 ns AFTER COMP &quot;FCLK_IN&quot;;&gt; [adc01.pcf(1357)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;COMP &quot;BUS_DATA&lt;2&gt;&quot; OFFSET = IN 15 ns AFTER COMP &quot;FCLK_IN&quot;;&gt; [adc01.pcf(1359)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;COMP &quot;BUS_DATA&lt;3&gt;&quot; OFFSET = IN 15 ns AFTER COMP &quot;FCLK_IN&quot;;&gt; [adc01.pcf(1361)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;COMP &quot;BUS_DATA&lt;4&gt;&quot; OFFSET = IN 15 ns AFTER COMP &quot;FCLK_IN&quot;;&gt; [adc01.pcf(1363)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;COMP &quot;BUS_DATA&lt;5&gt;&quot; OFFSET = IN 15 ns AFTER COMP &quot;FCLK_IN&quot;;&gt; [adc01.pcf(1365)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;COMP &quot;BUS_DATA&lt;6&gt;&quot; OFFSET = IN 15 ns AFTER COMP &quot;FCLK_IN&quot;;&gt; [adc01.pcf(1367)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;COMP &quot;BUS_DATA&lt;7&gt;&quot; OFFSET = IN 15 ns AFTER COMP &quot;FCLK_IN&quot;;&gt; [adc01.pcf(1369)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;COMP &quot;RD_B&quot; OFFSET = IN 10 ns AFTER COMP &quot;FCLK_IN&quot;;&gt; [adc01.pcf(1371)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >The Offset constraint &lt;COMP &quot;WR_B&quot; OFFSET = IN 5 ns AFTER COMP &quot;FCLK_IN&quot;;&gt; [adc01.pcf(1372)], is specified without a duration.  This will result in a lack of hold time checks in timing reports.  If hold time checks are desired a duration value should be specified following the &apos;VALID&apos; keyword.
+</msg>
+
+<msg type="warning" file="Timing" num="3391" delta="new" >Timing constraint <arg fmt="%s" index="1">COMP &quot;BUS_DATA&lt;0&gt;&quot; OFFSET = IN 15 ns AFTER COMP &quot;FCLK_IN&quot;;</arg> does not specify a data valid duration and will not be hold checked. To enable hold checking on this offset constraint please specify a data valid duration using the VALID &lt;duration&gt; option.</msg>
+
+<msg type="warning" file="Timing" num="3391" delta="new" >Timing constraint <arg fmt="%s" index="1">COMP &quot;BUS_DATA&lt;1&gt;&quot; OFFSET = IN 15 ns AFTER COMP &quot;FCLK_IN&quot;;</arg> does not specify a data valid duration and will not be hold checked. To enable hold checking on this offset constraint please specify a data valid duration using the VALID &lt;duration&gt; option.</msg>
+
+<msg type="warning" file="Timing" num="3391" delta="new" >Timing constraint <arg fmt="%s" index="1">COMP &quot;BUS_DATA&lt;2&gt;&quot; OFFSET = IN 15 ns AFTER COMP &quot;FCLK_IN&quot;;</arg> does not specify a data valid duration and will not be hold checked. To enable hold checking on this offset constraint please specify a data valid duration using the VALID &lt;duration&gt; option.</msg>
+
+<msg type="warning" file="Timing" num="3391" delta="new" >Timing constraint <arg fmt="%s" index="1">COMP &quot;BUS_DATA&lt;3&gt;&quot; OFFSET = IN 15 ns AFTER COMP &quot;FCLK_IN&quot;;</arg> does not specify a data valid duration and will not be hold checked. To enable hold checking on this offset constraint please specify a data valid duration using the VALID &lt;duration&gt; option.</msg>
+
+<msg type="warning" file="Timing" num="3391" delta="new" >Timing constraint <arg fmt="%s" index="1">COMP &quot;BUS_DATA&lt;4&gt;&quot; OFFSET = IN 15 ns AFTER COMP &quot;FCLK_IN&quot;;</arg> does not specify a data valid duration and will not be hold checked. To enable hold checking on this offset constraint please specify a data valid duration using the VALID &lt;duration&gt; option.</msg>
+
+<msg type="warning" file="Timing" num="3391" delta="new" >Timing constraint <arg fmt="%s" index="1">COMP &quot;BUS_DATA&lt;5&gt;&quot; OFFSET = IN 15 ns AFTER COMP &quot;FCLK_IN&quot;;</arg> does not specify a data valid duration and will not be hold checked. To enable hold checking on this offset constraint please specify a data valid duration using the VALID &lt;duration&gt; option.</msg>
+
+<msg type="warning" file="Timing" num="3391" delta="new" >Timing constraint <arg fmt="%s" index="1">COMP &quot;BUS_DATA&lt;6&gt;&quot; OFFSET = IN 15 ns AFTER COMP &quot;FCLK_IN&quot;;</arg> does not specify a data valid duration and will not be hold checked. To enable hold checking on this offset constraint please specify a data valid duration using the VALID &lt;duration&gt; option.</msg>
+
+<msg type="warning" file="Timing" num="3391" delta="new" >Timing constraint <arg fmt="%s" index="1">COMP &quot;BUS_DATA&lt;7&gt;&quot; OFFSET = IN 15 ns AFTER COMP &quot;FCLK_IN&quot;;</arg> does not specify a data valid duration and will not be hold checked. To enable hold checking on this offset constraint please specify a data valid duration using the VALID &lt;duration&gt; option.</msg>
+
+<msg type="warning" file="Timing" num="3391" delta="new" >Timing constraint <arg fmt="%s" index="1">COMP &quot;RD_B&quot; OFFSET = IN 10 ns AFTER COMP &quot;FCLK_IN&quot;;</arg> does not specify a data valid duration and will not be hold checked. To enable hold checking on this offset constraint please specify a data valid duration using the VALID &lt;duration&gt; option.</msg>
+
+<msg type="warning" file="Timing" num="3391" delta="new" >Timing constraint <arg fmt="%s" index="1">COMP &quot;WR_B&quot; OFFSET = IN 5 ns AFTER COMP &quot;FCLK_IN&quot;;</arg> does not specify a data valid duration and will not be hold checked. To enable hold checking on this offset constraint please specify a data valid duration using the VALID &lt;duration&gt; option.</msg>
+
+<msg type="info" file="Timing" num="3412" delta="new" >To improve timing, see the Timing Closure User Guide (UG612).</msg>
+
+<msg type="info" file="Timing" num="2752" delta="new" >To get complete path coverage, use the unconstrained paths option. All paths that are not constrained will be reported in the unconstrained paths section(s) of the report.</msg>
+
+<msg type="info" file="Timing" num="3339" delta="new" >The clock-to-out numbers in this timing report are based on a 50 Ohm transmission line loading model.  For the details of this model, and for more information on accounting for different loading conditions, please see the device datasheet.</msg>
+
+<msg type="info" file="Timing" num="3390" delta="new" >This architecture does not support a default System Jitter value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock Uncertainty calculation.</msg>
+
+<msg type="info" file="Timing" num="3389" delta="new" >This architecture does not support &apos;Discrete Jitter&apos; and &apos;Phase Error&apos; calculations, these terms will be zero in the Clock Uncertainty calculation.  Please make appropriate modification to SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase Error.</msg>
+
+</messages>
+

@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="2561" delta="new" >Always blocking tristate driving signal &lt;<arg fmt="%s" index="1">SDA</arg>&gt; in unit &lt;<arg fmt="%s" index="2">adc01</arg>&gt; is removed.
+</msg>
+
+<msg type="info" file="Xst" num="2561" delta="new" >Always blocking tristate driving signal &lt;<arg fmt="%s" index="1">SCL</arg>&gt; in unit &lt;<arg fmt="%s" index="2">adc01</arg>&gt; is removed.
+</msg>
+
+<msg type="info" file="Xst" num="2679" delta="new" >Register &lt;<arg fmt="%s" index="1">bi</arg>&gt; in unit &lt;<arg fmt="%s" index="2">gpio</arg>&gt; has a constant value of <arg fmt="%s" index="3">0001</arg> during circuit operation. The register is replaced by logic.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">BUS_OUT_MEM</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">BUS_ADD_MEM&lt;15:13&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="738" delta="new" >HDL ADVISOR - <arg fmt="%d" index="1">256</arg> flip-flops were inferred for signal &lt;<arg fmt="%s" index="2">status_regs</arg>&gt;. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">BUS_DATA_IN&lt;7:1&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">status_regs&lt;7:3&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">status_regs&lt;0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">CONF_SIZE_BYTE_BUF&lt;7:0&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2565" delta="new" >Inout &lt;<arg fmt="%s" index="1">SDA</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="2565" delta="new" >Inout &lt;<arg fmt="%s" index="1">SCL</arg>&gt; is never assigned.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">FMODE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">SPI_CLK</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">SOFT_RST</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">SEQ_OUT&lt;7:5&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">FIFO_READ_ERROR</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">FIFO_NOT_EMPTY</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">FIFO_NEAR_FULL</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">FIFO_FULL</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">CLK_LOCKED</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">CLK80</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">CLK160</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="new" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">rbin_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">rptr_empty_inst</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rptr_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">wbin_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">wptr_full_inst</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;wptr_2&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SEQ_OUT_MEM_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">i_seq_gen_core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SEQ_OUT_MEM_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">i_seq_gen_core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SEQ_OUT_MEM_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">i_seq_gen_core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SEQ_OUT_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">i_seq_gen_core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SEQ_OUT_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">i_seq_gen_core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">SEQ_OUT_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">i_seq_gen_core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">data_out_varindex0000_32</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">fifo_i</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">data_out_varindex0000_32</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">i_buf_fifo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">CONF_SIZE_BYTE_BUF_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">i_sram_fifo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">CONF_SIZE_BYTE_BUF_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">i_sram_fifo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">CONF_SIZE_BYTE_BUF_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">i_sram_fifo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">CONF_SIZE_BYTE_BUF_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">i_sram_fifo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">CONF_SIZE_BYTE_BUF_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">i_sram_fifo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">CONF_SIZE_BYTE_BUF_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">i_sram_fifo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">CONF_SIZE_BYTE_BUF_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">i_sram_fifo</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">CONF_SIZE_BYTE_BUF_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">i_sram_fifo</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_cdc_mem</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="3226" delta="new" >The RAM &lt;<arg fmt="%s" index="1">Mram_mem</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="info" file="Xst" num="3226" delta="new" >The RAM &lt;<arg fmt="%s" index="1">Mram_.mem</arg>&gt; will be implemented as a BLOCK RAM, absorbing the following register(s):</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">CONF_SIZE_BYTE_BUF_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">sram_fifo_core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">CONF_SIZE_BYTE_BUF_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">sram_fifo_core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">CONF_SIZE_BYTE_BUF_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">sram_fifo_core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">CONF_SIZE_BYTE_BUF_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">sram_fifo_core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">CONF_SIZE_BYTE_BUF_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">sram_fifo_core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">CONF_SIZE_BYTE_BUF_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">sram_fifo_core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">CONF_SIZE_BYTE_BUF_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">sram_fifo_core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">CONF_SIZE_BYTE_BUF_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">sram_fifo_core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PREV_BUS_ADD_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">seq_gen_core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PREV_BUS_ADD_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">seq_gen_core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PREV_BUS_ADD_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">seq_gen_core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PREV_BUS_ADD_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">seq_gen_core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">PREV_BUS_ADD_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">seq_gen_core</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">i_out_fifo/i_sram_fifo/FIFO_NEAR_FULL</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">rptr_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">rptr_empty</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;rbin_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">wptr_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">wptr_full</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;wbin_2&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2040" delta="new" >Unit <arg fmt="%s" index="1">adc01</arg>: <arg fmt="%d" index="2">8</arg> multi-source signals are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
+
+<msg type="warning" file="Xst" num="1303" delta="new" >From in and out of unit <arg fmt="%s" index="1">i_out_fifo/i_sram_fifo/i_buf_fifo</arg>, both signals <arg fmt="%s" index="2">clk</arg> and <arg fmt="%s" index="3">BUS_CLK</arg> have a KEEP attribute, signal <arg fmt="%s" index="4">clk</arg> will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="1303" delta="new" >From in and out of unit <arg fmt="%s" index="1">i_seq_gen/i_seq_gen_core</arg>, both signals <arg fmt="%s" index="2">SEQ_CLK</arg> and <arg fmt="%s" index="3">LCK1_BUF</arg> have a KEEP attribute, signal <arg fmt="%s" index="4">SEQ_CLK</arg> will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="1303" delta="new" >From in and out of unit <arg fmt="%s" index="1">i_seq_gen/i_seq_gen_core</arg>, both signals <arg fmt="%s" index="2">BUS_CLK</arg> and <arg fmt="%s" index="3">BUS_CLK</arg> have a KEEP attribute, signal <arg fmt="%s" index="4">BUS_CLK</arg> will be lost.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/counter_ce_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div1/CE</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/counter_ce_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">div2/CE</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">i_seq_gen/i_seq_gen_core/SEQ_OUT_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">i_seq_gen/i_seq_gen_core/SEQ_OUT_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">i_seq_gen/i_seq_gen_core/SEQ_OUT_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">adc01</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">i_fast_spi_rx/i_fast_spi_rx_core/cdc_syncfifo_i/cdc_fifomem_inst/Mram_cdc_mem30</arg>&gt;, &lt;<arg fmt="%s" index="2">i_fast_spi_rx/i_fast_spi_rx_core/cdc_syncfifo_i/cdc_fifomem_inst/Mram_cdc_mem32</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2399" delta="new" >RAMs &lt;<arg fmt="%s" index="1">i_fast_spi_rx/i_fast_spi_rx_core/cdc_syncfifo_i/cdc_fifomem_inst/Mram_cdc_mem30</arg>&gt;, &lt;<arg fmt="%s" index="2">i_fast_spi_rx/i_fast_spi_rx_core/cdc_syncfifo_i/cdc_fifomem_inst/Mram_cdc_mem29</arg>&gt; are equivalent, second RAM is removed
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="new" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

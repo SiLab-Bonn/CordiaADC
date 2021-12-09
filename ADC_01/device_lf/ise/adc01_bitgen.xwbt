@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/faust/user/lhafiane/cordia/ADC_01/device_lf/ise/adc01.ncd
+OUTFILE=/faust/user/lhafiane/cordia/ADC_01/device_lf/ise/adc01.bit
+FAMILY=Spartan3
+PART=xc3s1000-5fg320
+WORKINGDIR=/faust/user/lhafiane/cordia/ADC_01/device_lf/ise
+LICENSE=ISE
+USER_INFO=175435115_174154030_210672043_607

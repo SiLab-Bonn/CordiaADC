@@ -1,0 +1,134 @@
+name    : adc01 
+version : 0.01
+
+transfer_layer:
+  - name  : USB
+    type  : SiUsb
+    board_id : 201
+    init  :
+      #bit_file : /faust/user/lhafiane/cordia/ADC_01/device/ise/adc01.bit  # Freq from 1MHz to 3MHz !!
+      bit_file : /faust/user/lhafiane/cordia/ADC_01/device_lf/ise/adc01.bit  # Freq up to 1MHz
+      #bit_file : "../device/ise/adc01.bit"
+ 
+      avoid_download : True
+#      avoid_download : False
+
+hw_drivers:
+#  - name      : SMU
+#    type      : scpi
+#    interface : Serial
+#    init      :
+#        device : Keithley 2410
+
+  - name      : GPAC
+    type      : GPAC
+    interface : USB
+    base_addr : 0x00000
+
+
+  - name      : MIO_PLL
+    type      : MIO_PLL
+    interface : USB
+    base_addr : 0x00000
+    pll_frequency : 40 
+
+  - name      : gpio
+    type      : gpio
+    interface : USB
+    base_addr : 0x10000
+    size      : 8
+
+  - name      : seq_gen
+    type      : seq_gen
+    interface : USB
+    base_addr : 0x11000
+#    mem_size  : 4096    
+
+  - name      : ADC_RX
+    type      : fast_spi_rx
+    interface : USB
+    base_addr : 0x14000
+
+  - name      : DATA
+    type      : sram_fifo
+    interface : USB
+    base_addr : 0x18000
+    base_data_addr: 0x0001000000000000 # ???
+    
+registers:
+  - name        : VDDIO
+    type        : FunctionalRegister
+    hw_driver   : GPAC
+    arg_names   : [ value ]
+    arg_add     : { 'channel': 'PWR0'}
+  - name        : VDDD
+    type        : FunctionalRegister
+    hw_driver   : GPAC
+    arg_names   : [ value ]
+    arg_add     : { 'channel': 'PWR1'}
+  - name        : VDDA
+    type        : FunctionalRegister
+    hw_driver   : GPAC
+    arg_names   : [ value ]
+    arg_add     : { 'channel': 'PWR2'}
+  - name        : VREF_N
+    type        : FunctionalRegister
+    hw_driver   : GPAC
+    arg_names   : [ value ]
+    arg_add     : { 'channel': 'VSRC3'}
+  - name        : VREF_P
+    type        : FunctionalRegister
+    hw_driver   : GPAC
+    arg_names   : [ value ]
+    arg_add     : { 'channel': 'VSRC2'}  
+  - name        : VIN_N
+    type        : FunctionalRegister
+    hw_driver   : GPAC
+    arg_names   : [ value ]
+    arg_add     : { 'channel': 'VSRC1'}  
+  - name        : VIN_P
+    type        : FunctionalRegister
+    hw_driver   : GPAC
+    arg_names   : [ value ]
+    arg_add     : { 'channel': 'VSRC0'}
+
+         
+  - name        : SEQ
+    type        : TrackRegister
+    hw_driver   : seq_gen
+    seq_width   : 8
+    seq_size    : 1024
+    tracks  : 
+      - name     : CLK_COMP
+        position : 0  
+      - name     : CLK_SR
+        position : 1
+      - name     : SAMPLE
+        position : 2
+      - name     : RST_B
+        position : 3
+      - name     : RX_EN
+        position : 4
+      
+
+  - name        : GPIO
+    type        : StdRegister
+    hw_driver   : gpio
+    size        : 8
+    fields:
+      - name    : SOFT_RST
+        size    : 1
+        offset  : 6   
+      - name    : LED2
+        size    : 1
+        offset  : 5     
+      - name    : EN_SEQ
+        size    : 1
+        offset  : 4         
+      - name    : EN_OPA
+        size    : 1
+        offset  : 3      
+      - name    : SEL
+        size    : 3
+        offset  : 2              
+

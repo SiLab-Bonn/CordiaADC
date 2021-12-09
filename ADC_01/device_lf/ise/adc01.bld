@@ -1,0 +1,127 @@
+Release 14.7 ngdbuild P.20131013 (lin)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /cadence/xilinx/14.7/ISE_DS/ISE/bin/lin/unwrapped/ngdbuild
+-intstyle ise -dd _ngo -nt timestamp -uc
+/faust/user/lhafiane/cordia/ADC_01/device_lf/src/adc01.ucf -p xc3s1000-fg320-5
+adc01.ngc adc01.ngd
+
+Reading NGO file "/faust/user/lhafiane/cordia/ADC_01/device_lf/ise/adc01.ngc"
+...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file
+"/faust/user/lhafiane/cordia/ADC_01/device_lf/src/adc01.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC TS_FALSE_WCLK_BUS = FROM
+   "tn_TDC_WCLK" TO "tn_BUS_CLK" TIG;>
+   [/faust/user/lhafiane/cordia/ADC_01/device_lf/src/adc01.ucf(46)]: Unable to
+   find an active 'TimeGrp' or 'TNM' or 'TPSync' constraint named 'tn_TDC_WCLK'.
+
+INFO:ConstraintSystem:178 - TNM 'TNM_FCLK_IN', used in period specification
+   'TS_FCLK_IN', was traced into DCM instance i_clkgen/DCM_BUS. The following
+   new TNM groups and period specifications were generated at the DCM output(s):
+    
+   CLK0: <TIMESPEC TS_i_clkgen_CLK0 = PERIOD "i_clkgen_CLK0" TS_FCLK_IN HIGH
+   50%>
+
+WARNING:ConstraintSystem - The Offset constraint <NET "WR_B" OFFSET = IN : 5 :
+   AFTER : FCLK_IN ;>
+   [/faust/user/lhafiane/cordia/ADC_01/device_lf/src/adc01.ucf(152)], is
+   specified without a duration.  This will result in a lack of hold time checks
+   in timing reports.  If hold time checks are desired a duration value should
+   be specified following the 'VALID' keyword.
+
+WARNING:ConstraintSystem - The Offset constraint <NET "RD_B" OFFSET = IN : 10 :
+   AFTER : FCLK_IN ;>
+   [/faust/user/lhafiane/cordia/ADC_01/device_lf/src/adc01.ucf(153)], is
+   specified without a duration.  This will result in a lack of hold time checks
+   in timing reports.  If hold time checks are desired a duration value should
+   be specified following the 'VALID' keyword.
+
+WARNING:ConstraintSystem - The Offset constraint <NET "BUS_DATA[7]" OFFSET = IN
+   : 15  : AFTER : FCLK_IN ;>
+   [/faust/user/lhafiane/cordia/ADC_01/device_lf/src/adc01.ucf(154)], is
+   specified without a duration.  This will result in a lack of hold time checks
+   in timing reports.  If hold time checks are desired a duration value should
+   be specified following the 'VALID' keyword.
+
+WARNING:ConstraintSystem - The Offset constraint <NET "BUS_DATA[6]" OFFSET = IN
+   : 15  : AFTER : FCLK_IN ;>
+   [/faust/user/lhafiane/cordia/ADC_01/device_lf/src/adc01.ucf(155)], is
+   specified without a duration.  This will result in a lack of hold time checks
+   in timing reports.  If hold time checks are desired a duration value should
+   be specified following the 'VALID' keyword.
+
+WARNING:ConstraintSystem - The Offset constraint <NET "BUS_DATA[5]" OFFSET = IN
+   : 15  : AFTER : FCLK_IN ;>
+   [/faust/user/lhafiane/cordia/ADC_01/device_lf/src/adc01.ucf(156)], is
+   specified without a duration.  This will result in a lack of hold time checks
+   in timing reports.  If hold time checks are desired a duration value should
+   be specified following the 'VALID' keyword.
+
+WARNING:ConstraintSystem - The Offset constraint <NET "BUS_DATA[4]" OFFSET = IN
+   : 15  : AFTER : FCLK_IN ;>
+   [/faust/user/lhafiane/cordia/ADC_01/device_lf/src/adc01.ucf(157)], is
+   specified without a duration.  This will result in a lack of hold time checks
+   in timing reports.  If hold time checks are desired a duration value should
+   be specified following the 'VALID' keyword.
+
+WARNING:ConstraintSystem - The Offset constraint <NET "BUS_DATA[3]" OFFSET = IN
+   : 15  : AFTER : FCLK_IN ;>
+   [/faust/user/lhafiane/cordia/ADC_01/device_lf/src/adc01.ucf(158)], is
+   specified without a duration.  This will result in a lack of hold time checks
+   in timing reports.  If hold time checks are desired a duration value should
+   be specified following the 'VALID' keyword.
+
+WARNING:ConstraintSystem - The Offset constraint <NET "BUS_DATA[2]" OFFSET = IN
+   : 15  : AFTER : FCLK_IN ;>
+   [/faust/user/lhafiane/cordia/ADC_01/device_lf/src/adc01.ucf(159)], is
+   specified without a duration.  This will result in a lack of hold time checks
+   in timing reports.  If hold time checks are desired a duration value should
+   be specified following the 'VALID' keyword.
+
+WARNING:ConstraintSystem - The Offset constraint <NET "BUS_DATA[1]" OFFSET = IN
+   : 15  : AFTER : FCLK_IN ;>
+   [/faust/user/lhafiane/cordia/ADC_01/device_lf/src/adc01.ucf(160)], is
+   specified without a duration.  This will result in a lack of hold time checks
+   in timing reports.  If hold time checks are desired a duration value should
+   be specified following the 'VALID' keyword.
+
+WARNING:ConstraintSystem - The Offset constraint <NET "BUS_DATA[0]" OFFSET = IN
+   : 15  : AFTER : FCLK_IN ;>
+   [/faust/user/lhafiane/cordia/ADC_01/device_lf/src/adc01.ucf(161)], is
+   specified without a duration.  This will result in a lack of hold time checks
+   in timing reports.  If hold time checks are desired a duration value should
+   be specified following the 'VALID' keyword.
+
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:478 - clock net CLK160 with clock driver
+   i_clkgen/CLKFX_BUFG_INST drives no clock pins
+WARNING:NgdBuild:478 - clock net SPI_CLK with clock driver
+   i_clkgen/CLKDV_BUFG_INST drives no clock pins
+WARNING:NgdBuild:470 - bidirect pad net 'SDA' has no legal driver
+WARNING:NgdBuild:470 - bidirect pad net 'SCL' has no legal driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  15
+
+Total memory usage is 109432 kilobytes
+
+Writing NGD file "adc01.ngd" ...
+Total REAL time to NGDBUILD completion:  2 sec
+Total CPU time to NGDBUILD completion:   2 sec
+
+Writing NGDBUILD log file "adc01.bld"...

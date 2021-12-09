@@ -1,0 +1,2 @@
+ADC Transfer Function||Date :6.12.2021||PCB:A1.1||ADC_CH : 3||VCM [V]=0.6||Fs [MHz]=1||N Samples =2048||N iterations / conversion=3
+coefficient of determination (Rs^2) :0.9999961542156832|*|fitting coefficient (A0 ; A1) :1020.7578125;[0.98616482]|*|MAX/MIN INL : 2.63/-2.99|*|MAX/MIN DNL : 3.12/-4.09

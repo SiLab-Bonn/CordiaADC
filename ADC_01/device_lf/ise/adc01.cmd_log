@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/faust/user/lhafiane/cordia/ADC_01/device_lf/ise/adc01.xst" -ofn "/faust/user/lhafiane/cordia/ADC_01/device_lf/ise/adc01.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /faust/user/lhafiane/cordia/ADC_01/device_lf/src/adc01.ucf -p xc3s1000-fg320-5 adc01.ngc adc01.ngd  
+map -intstyle ise -p xc3s1000-fg320-5 -cm area -ir off -pr off -c 100 -o adc01_map.ncd adc01.ngd adc01.pcf 
+par -w -intstyle ise -ol high -t 1 adc01_map.ncd adc01.ncd adc01.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml adc01.twx adc01.ncd -o adc01.twr adc01.pcf 
+bitgen -intstyle ise -f adc01.ut adc01.ncd 
