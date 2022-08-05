@@ -1,0 +1,14 @@
+measurement performed on 20th of June
+testing the maximum Sampling rate ! 2.8 and 3 MS/s
+note
+2 MS/s   --> only for ADC01 / apply for all !! just for check !   
+2.8 MS/s --> only for ADC02 ! because ADC02 (and ADC03) requires a bit higher clock frequency ! due to redundancy!  
+3 MS/s   --> all ADCs 
+
+
+typical operating conditions/  with reference from GPAC-DACs (not connected to VDDA!!) 
+the latest FPGA timing (please refers to  ./20220515_improved_timing_osc) 
+
+
+
+

@@ -1,0 +1,16 @@
+.ALIASES
+X_U1            U1(IN+=N14498 IN-=N14502 VS+=N14395 VS-=0 OUT-=OUT_N OUT+=OUT_P CM=N14639 ) CN
++@FDA.SCHEMATIC1(sch_1):INS14309@THS4520.THS4520.Normal(chips)
+V_V1            V1(+=N14395 -=0 ) CN @FDA.SCHEMATIC1(sch_1):INS14350@SOURCE.VDC.Normal(chips)
+R_R1            R1(1=IN_P 2=N14498 ) CN @FDA.SCHEMATIC1(sch_1):INS14434@ANALOG.R.Normal(chips)
+R_R2            R2(1=N14498 2=OUT_N ) CN @FDA.SCHEMATIC1(sch_1):INS14450@ANALOG.R.Normal(chips)
+R_R3            R3(1=IN_N 2=N14502 ) CN @FDA.SCHEMATIC1(sch_1):INS14466@ANALOG.R.Normal(chips)
+R_R4            R4(1=N14502 2=OUT_P ) CN @FDA.SCHEMATIC1(sch_1):INS14482@ANALOG.R.Normal(chips)
+V_V2            V2(+=N14639 -=0 ) CN @FDA.SCHEMATIC1(sch_1):INS14581@SOURCE.VDC.Normal(chips)
+V_V4            V4(+=IN_P -=0 ) CN @FDA.SCHEMATIC1(sch_1):INS14766@SOURCE.VSIN.Normal(chips)
+V_V5            V5(+=IN_N -=0 ) CN @FDA.SCHEMATIC1(sch_1):INS14825@SOURCE.VDC.Normal(chips)
+_    _(IN_N=IN_N)
+_    _(IN_P=IN_P)
+_    _(OUT_N=OUT_N)
+_    _(OUT_P=OUT_P)
+.ENDALIASES

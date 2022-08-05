@@ -1,0 +1,5 @@
+27.07.22
+test with reduced VREF and accordingly the input range  
+VREF-DIFF : 400, 600 and 800mV
+Input-DIFF : VREF-DIFF*0.84  
+

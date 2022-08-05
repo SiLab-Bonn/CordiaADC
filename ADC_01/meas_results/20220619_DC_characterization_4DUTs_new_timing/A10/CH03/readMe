@@ -1,0 +1,14 @@
+typical operating conditions/  with reference from GPAC-DACs (not connected to VDDA!!) 
+
+
+
+
+SEL ADC CH = 3 
+
+ ************************ Power watch *********************************
+VDDIO:   1.197 V         0.007 mA
+VDDD:    1.201 V         0.000 mA
+VDDA:    1.200 V         0.001 mA
+ ************************ VREF *********************************
+VREF_N:  0.020
+VREF_P:  1.220

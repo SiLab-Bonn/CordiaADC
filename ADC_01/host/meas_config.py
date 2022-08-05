@@ -55,9 +55,14 @@ def config(dut,Fs,RE,CH,M,EN_DA):
     # +++++++  ******** SET ADC REF  ****** +++++ 
     # ---------------------------------------------------
     print('SET REFs \n' )
-    V_offset=0.02 #To be checked!!  the input "0" (or "0.0") leads to an error !! added 20mV offset !!
-    dut['VREF_N'].set_voltage(0 + V_offset, unit='V') # 
-    dut['VREF_P'].set_voltage(1.2 + V_offset, unit='V')
+    V_offset=0.02  # 0.02 #To be checked!!  the input "0" (or "0.0") leads to an error !! added 20mV offset !!
+    VREF0=1.2
+    VREFN=0 + V_offset  
+    VREFP=VREF0 + V_offset    
+    #VREFN=0.300  
+    #VREFP=0.900
+    dut['VREF_N'].set_voltage(VREFN, unit='V') # 
+    dut['VREF_P'].set_voltage(VREFP, unit='V')
   
     # -------------------- END ------------------------
     
@@ -158,4 +163,5 @@ def config(dut,Fs,RE,CH,M,EN_DA):
     dut['GPIO']['SEL'] = CH
     dut['GPIO'].write()
     #  +++++ ******** END SEL ADC  ********** ++++++++ 
+    #---------------------- *********** -------------------------------
 

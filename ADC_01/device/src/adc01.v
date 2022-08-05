@@ -204,9 +204,9 @@ module adc01 (
 		 .CLK0(CLK_MAIN_DIV_2_OUT), 
 		 .CLK2X(), 
 		 .CLK2X180(), 
-		 .CLK90(CLK_SPI), 
+		 .CLK90(), 
 		 .CLK180(), 
-		 .CLK270(), 
+		 .CLK270(CLK_SPI), 
 		 .LOCKED(LED5), 
 		 .PSDONE(), 
 		 .STATUS()

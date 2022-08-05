@@ -1,0 +1,2 @@
+To improve the performances a half clock delay is added to the SPI_CLK (current_timing vs new_timing). Background : by low VCM (common mode voltage) the comparator is relatively slower ! -->  so more delay is needed.  
+→ see ../20220515_VCM_TEST

@@ -6,9 +6,10 @@ transfer_layer:
     type  : SiUsb
     board_id : 201
     init  :
-      #bit_file : /faust/user/lhafiane/cordia/ADC_01/device/ise/adc01.bit  # Freq from 1MHz to 3MHz !!
-      bit_file : /faust/user/lhafiane/cordia/ADC_01/device_lf/ise/adc01.bit  # Freq up to 1MHz
-      #bit_file : "../device/ise/adc01.bit"
+      bit_file : /faust/user/lhafiane/cordia/ADC_01/device/ise/adc01.bit  # Freq from 1MHz to 3MHz !!
+      #bit_file : /faust/user/lhafiane/cordia/ADC_01/device_lf/ise/adc01.bit  # Freq up to 1MHz
+      #bit_file : ../device_lf/ise/adc01.bit  # Freq up to 1MHz
+      #bit_file : "../device/ise/adc01.bit" # Freq from 1MHz to 3MHz !!
  
       avoid_download : True
 #      avoid_download : False

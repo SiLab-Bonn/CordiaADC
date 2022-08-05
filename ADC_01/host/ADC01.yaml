@@ -4,7 +4,7 @@ version : 0.01
 transfer_layer:
   - name  : USB
     type  : SiUsb
-    board_id : 17
+    board_id : 201
     init  :
       bit_file : "../device/ise/adc01.bit"
  #       bit_file : "../device/ise/pixcap65.bit"

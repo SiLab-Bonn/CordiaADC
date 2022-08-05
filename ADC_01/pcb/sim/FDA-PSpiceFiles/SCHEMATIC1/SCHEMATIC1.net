@@ -1,0 +1,12 @@
+* source FDA
+X_U1         N14498 N14502 N14395 0 OUT_N OUT_P N14639 THS4520 
+V_V1         N14395 0 5V
+R_R1         IN_P N14498  1k TC=0,0 
+R_R2         N14498 OUT_N  1k TC=0,0 
+R_R3         IN_N N14502  1k TC=0,0 
+R_R4         N14502 OUT_P  {Rx} TC=0,0 
+V_V2         N14639 0 1.2V
+V_V4         IN_P 0  AC 0
++SIN 1.2 0.5 1Meg 0 0 0
+V_V5         IN_N 0 1.2V
+.PARAM  rx=1k

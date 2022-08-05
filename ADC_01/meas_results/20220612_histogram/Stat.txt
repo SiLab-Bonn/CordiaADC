@@ -1,0 +1,5 @@
+Noise evaluation||Date :12.6.2022||PCB:A1.1||ADC_CH : 1||VCM [V]=0.6||Fs [MS/s]=2.5||N iterations / conversion (evaluation set)=12000||input source : SMU
+ VDIFF [mV] | MIN [LSB] | MAX [LSB] | MEAN [LSB] | Sigma [LSB] | 
+[[-1.00800e+03  1.50000e+01  2.00000e+01  1.78200e+01  5.40000e-01]
+ [ 0.00000e+00  1.02600e+03  1.02800e+03  1.02696e+03  3.50000e-01]
+ [ 1.00800e+03  2.03300e+03  2.03800e+03  2.03591e+03  5.30000e-01]]

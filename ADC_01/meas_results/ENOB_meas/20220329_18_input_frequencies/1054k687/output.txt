@@ -1,0 +1,24 @@
+++++++++ load DATA from CSV ++++++++ 
+
+data Integrity : OK
+FFT-input DATA size : 8192
+Fs= 2500000.0
+actual frequency of the input signal (F0)= 1054687.5
+number of the sampled periods (after windowing)=3456.0
+OUTPUT_mean= 1051.732
+OUTPUT_max= 1824
+OUTPUT_min= 280
+OUTPUT_peak2peak= 1544
+OUTPUT_ac_rms= 544.70863
+OUTPUT_amp= 770.33433
+F_scale= 0.75228
+ **************** FFT output  *************************** 
+ ***** expected FFT size OK  !! ***** 
+FFT size  : 4097
+fundamental frequency [Hz]: 1054687.5|| index :3456
+estimated power around the fundamental [dBc] / [LSB]  : -0.001 / 1023.91
+estimated power around the fundamental after scaling the back [LSB]  : 770.27
+applied window: blackmanharris >> Coherent  power Gain (Energy correction factor) =1.96901
+THD+N [%]:0.18018  ||  THD+N [dB]:54.886
+SINAD [dB]:54.886 >>>   ENOB[BITs] : 8.825
+  ==== ****** ====  writing data to csv file  ==== ***** ==== 

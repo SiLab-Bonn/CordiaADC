@@ -1,0 +1,288 @@
+
+**** 03/22/22 14:20:25 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TRANSIENT"  [ D:\redmine_svn\cordia\ADC_01\pcb\sim\FDA-PSpiceFiles\SCHEMATIC1\TRANSIENT.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "TRANSIENT.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\17.4.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 100u 0 1n 
+.STEP PARAM Rx LIST 1k 1.1k 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source FDA
+X_U1         N14498 N14502 N14395 0 OUT_N OUT_P N14639 THS4520 
+V_V1         N14395 0 5V
+R_R1         IN_P N14498  1k TC=0,0 
+R_R2         N14498 OUT_N  1k TC=0,0 
+R_R3         IN_N N14502  1k TC=0,0 
+R_R4         N14502 OUT_P  {Rx} TC=0,0 
+V_V2         N14639 0 1.2V
+V_V4         IN_P 0  AC 0
++SIN 1.2 0.5 1Meg 0 0 0
+V_V5         IN_N 0 1.2V
+.PARAM  rx=1k
+
+**** RESUMING TRANSIENT.cir ****
+.END
+
+**** 03/22/22 14:20:25 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TRANSIENT"  [ D:\redmine_svn\cordia\ADC_01\pcb\sim\FDA-PSpiceFiles\SCHEMATIC1\TRANSIENT.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.NPN8       
+               NPN             
+       LEVEL    1            
+          IS    7.604000E-18 
+          EG    1.12         
+          BF  157            
+          NF    1            
+         VAF   78.71         
+         IKF     .03975      
+         ISE   32.190000E-15 
+          NE    2            
+          BR     .7614       
+          NR    1            
+         VAR    1.452        
+         IKR     .08172      
+         ISC    7.618000E-21 
+          NC    1.847        
+         ISS    0            
+          RB  106            
+         RBM    2.4          
+          RE    2.52         
+          RC  127            
+         CJE  112.000000E-15 
+         VJE     .7591       
+         MJE     .5406       
+         CJC   82.080000E-15 
+         VJC     .6666       
+         MJC     .4509       
+        XCJC     .0845       
+         CJS  116.000000E-15 
+         VJS     .5286       
+         MJS     .4389       
+          FC     .8273       
+          TF   12.130000E-12 
+         XTF    2.049        
+         VTF    1.813        
+         ITF     .04293      
+          TR   40.000000E-12 
+         XTB    1.022        
+         XTI    1.78         
+          KF  350.000000E-18 
+          AF    1            
+          CN    2.42         
+           D     .87         
+
+
+**** 03/22/22 14:20:25 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TRANSIENT"  [ D:\redmine_svn\cordia\ADC_01\pcb\sim\FDA-PSpiceFiles\SCHEMATIC1\TRANSIENT.sim ] 
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_S2._S2   
+         RON  932.7901       
+        ROFF     .166749     
+         VON    6.082619     
+        VOFF   -8.10266      
+
+
+**** 03/22/22 14:20:25 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TRANSIENT"  [ D:\redmine_svn\cordia\ADC_01\pcb\sim\FDA-PSpiceFiles\SCHEMATIC1\TRANSIENT.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM RX =    1.0000E+03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+( IN_N)    1.2000  ( IN_P)    1.2000  (OUT_N)    1.1997  (OUT_P)    1.1999      
+
+(N14395)    5.0000 (N14498)    1.2028 (N14502)    1.2028 (N14639)    1.2000     
+
+(X_U1.Vmid)    2.5000                 (X_U1.N_0001)    2.4999                   
+
+(X_U1.N_0002)    2.4999               (X_U1.N_0003)    2.4999                   
+
+(X_U1.N_0004)    2.4999               (X_U1.N_0005)    2.4999                   
+
+(X_U1.N_0006)    5.0000               (X_U1.N_0007)    4.9931                   
+
+(X_U1.N_0008)    5.0000               (X_U1.N_0009)    4.9931                   
+
+(X_U1.N_0010)    2.5001               (X_U1.N_0011)    3.0000                   
+
+(X_U1.N_0012)    0.0000               (X_U1.N_0013)    1.2028                   
+
+(X_U1.N_0014)    2.4998               (X_U1.N_0015)    2.5001                   
+
+(X_U1.N_0016)    2.5001               (X_U1.N_0017)    2.5001                   
+
+(X_U1.N_0018)    2.5001               (X_U1.N_0019)    1.2000                   
+
+(X_U1.N_0020)    1.2000               (X_U1.N_0021)    1.1998                   
+
+(X_U1.N_0022)     .2500               (X_U1.N_0023)    4.7500                   
+
+(X_U1.N_0024)     .2500               (X_U1.N_0025)    4.7500                   
+
+(X_U1.N_0026)     .3798               (X_U1.N_0027)     .3798               
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.276E-02
+    V_V2         5.140E-05
+    V_V4         2.790E-06
+    V_V5         2.790E-06
+    X_U1.V_V12   2.250E-06
+    X_U1.V_V14   2.250E-06
+    X_U1.V_V13   2.250E-06
+    X_U1.V_V6    0.000E+00
+    X_U1.V_V7    1.400E-03
+    X_U1.V_V11   2.250E-06
+
+    TOTAL POWER DISSIPATION   6.37E-02  WATTS
+
+
+**** 03/22/22 14:20:25 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TRANSIENT"  [ D:\redmine_svn\cordia\ADC_01\pcb\sim\FDA-PSpiceFiles\SCHEMATIC1\TRANSIENT.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+ ****     CURRENT STEP                     PARAM RX =    1.1000E+03
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+( IN_N)    1.2000  ( IN_P)    1.2000  (OUT_N)    1.1999  (OUT_P)    1.1998      
+
+(N14395)    5.0000 (N14498)    1.2029 (N14502)    1.2029 (N14639)    1.2000     
+
+(X_U1.Vmid)    2.5000                 (X_U1.N_0001)    2.5000                   
+
+(X_U1.N_0002)    2.5000               (X_U1.N_0003)    2.5000                   
+
+(X_U1.N_0004)    2.5000               (X_U1.N_0005)    2.5000                   
+
+(X_U1.N_0006)    5.0000               (X_U1.N_0007)    4.9931                   
+
+(X_U1.N_0008)    5.0000               (X_U1.N_0009)    4.9931                   
+
+(X_U1.N_0010)    2.5000               (X_U1.N_0011)    3.0000                   
+
+(X_U1.N_0012)    0.0000               (X_U1.N_0013)    1.2029                   
+
+(X_U1.N_0014)    2.4998               (X_U1.N_0015)    2.5000                   
+
+(X_U1.N_0016)    2.5000               (X_U1.N_0017)    2.5000                   
+
+(X_U1.N_0018)    2.5000               (X_U1.N_0019)    1.2000                   
+
+(X_U1.N_0020)    1.2000               (X_U1.N_0021)    1.1998                   
+
+(X_U1.N_0022)     .2500               (X_U1.N_0023)    4.7500                   
+
+(X_U1.N_0024)     .2500               (X_U1.N_0025)    4.7500                   
+
+(X_U1.N_0026)     .3799               (X_U1.N_0027)     .3799               
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.276E-02
+    V_V2         5.140E-05
+    V_V4         2.859E-06
+    V_V5         2.859E-06
+    X_U1.V_V12   2.250E-06
+    X_U1.V_V14   2.250E-06
+    X_U1.V_V13   2.250E-06
+    X_U1.V_V6    0.000E+00
+    X_U1.V_V7    1.400E-03
+    X_U1.V_V11   2.250E-06
+
+    TOTAL POWER DISSIPATION   6.37E-02  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 03/22/22 14:20:25 ******* PSpice 17.4.0 (Nov 2018) ******* ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-TRANSIENT"  [ D:\redmine_svn\cordia\ADC_01\pcb\sim\FDA-PSpiceFiles\SCHEMATIC1\TRANSIENT.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+ ****     CURRENT STEP                     PARAM RX =    1.1000E+03
+
+
+******************************************************************************
+
+
+
+  License check-out time            =      124.19
+  Total job time (using Solver 1)   =       15.28
+

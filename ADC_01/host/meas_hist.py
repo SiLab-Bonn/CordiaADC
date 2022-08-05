@@ -16,9 +16,9 @@ def eval_hist(ADC_OUT,ADC_i,N,header_hist):
     #  --- check the data size -------
     # ---- the number of samples should not be greater thean 10 !!! 
 
-    if N>10:
-        print("Too much data to plot !!!!! N samples should be less than 10")
-        print("cannot evalute Histogram ... Exit the prorgamm")
+    if N>5:
+        print("Too much data to plot !!!!! N samples should be less than 5")
+        print("cannot evalute Histogram ... Exit prorgamm")
         return None
     else: 
         X= np.zeros((N,1),dtype=float)  
@@ -41,12 +41,14 @@ def eval_hist(ADC_OUT,ADC_i,N,header_hist):
             calculus_out[j][3]=Ym[j]
             calculus_out[j][4]=Ystd[j]                                                            
             bins0=np.arange(min(Y)-4, max(Y)+4, 1)  #  
-            plt.subplot(N,1,j+1)
+            plt.figure(j+2) # plt.subplot(N,1,j+1)
             n, bins, patches =plt.hist(Y,bins0,align='left',rwidth=0.8) #density=True
             plt.grid(True)
-            plt.legend(('input ='+str(X[j])+'[mV]'+'||'+'[u,s]='+str(Ym[j])+','+str(Ystd[j]),''), loc='upper right')
+            plt.xlabel('[LSB]')
+            plt.ylabel('[Count]')
+            plt.legend(('sample set = '+str(ADC_i)+' |*| '+'VDIFF ='+str(calculus_out[j][0])+'[mV]'+' |*| '+'[MAX,MIN]='+str(calculus_out[j][2])+','+str(calculus_out[j][1])+' |*| '+'[u,s]='+str(calculus_out[j][3])+','+str(calculus_out[j][4]),''), loc='upper right')
         # write the results to TEXT file 
-        header_0=' VDIFF [mV] | MIN [LSB] | MAX [LSB] | Sigma [LSB] | MEAN [LSB]'
+        header_0=' VDIFF [mV] | MIN [LSB] | MAX [LSB] | MEAN [LSB] | Sigma [LSB] | '
         with open('Stat.txt', 'w') as out_file:
             out_file.write(header_hist)
             out_file.write('\n')
