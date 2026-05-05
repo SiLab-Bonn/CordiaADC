@@ -228,14 +228,14 @@ module adc01 (
 	//assign LCK1_BUF = BUS_CLK;
 
  // -------  MODULE ADREESSES  ------- //
-    localparam GPIO_BASEADDR = 16'h0000;
-    localparam GPIO_HIGHADDR = 16'h000f;
+    localparam GPIO_BASEADDR    = 16'h0000;
+    localparam GPIO_HIGHADDR    = GPIO_BASEADDR + 15;
 
     localparam SEQ_GEN_BASEADDR = 16'h1000;                      //0x1000
     localparam SEQ_GEN_HIGHADDR = SEQ_GEN_BASEADDR + 15 + 16'h1fff;   //0x300f
 
-    localparam SPI_RX_BASEADDR = 16'h4000;                      //0x1000
-    localparam SPI_RX_HIGHADDR = SPI_RX_BASEADDR + 15;   //0x300f
+    localparam SPI_RX_BASEADDR  = 16'h4000;                      //0x1000
+    localparam SPI_RX_HIGHADDR  = SPI_RX_BASEADDR + 15;   //0x300f
 	localparam SPI_RX_IDENTIFIER = 4'b1011;
     
 	localparam FIFO_BASEADDR      = 16'h8000;
